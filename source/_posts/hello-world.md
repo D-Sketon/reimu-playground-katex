@@ -3,6 +3,7 @@ title: Hello World
 math: true
 ---
 
+{% raw %}
 $$
 \begin{align}
 &\underset{\boldsymbol{w}}{\min}\sum_{i=1}^N{\left( \boldsymbol{p}_i\boldsymbol{w} \right) ^2 },\,\, s.t. \,\left\| \boldsymbol{w} \right\| _2=1 \notag
@@ -28,3 +29,5 @@ $$
 d_i=\frac{a\hat{x}_i+b\hat{y}_i}{\sqrt{a^2+b^2}} \label{distance}
 \end{align}
 $$
+
+{% endraw %}
