@@ -1,2 +1,4 @@
 math:
   enable: true
+  mathjax:
+    true
