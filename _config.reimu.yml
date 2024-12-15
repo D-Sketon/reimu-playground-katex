@@ -1,4 +1,7 @@
 math:
   enable: true
+  katex:
+    enable: false
+    autoRender: false
   mathjax:
     enable: true
