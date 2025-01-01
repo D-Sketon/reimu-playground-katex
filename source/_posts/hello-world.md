@@ -4,62 +4,547 @@ math: true
 date: 2024-11-28 01:37:27
 ---
 
-```txt
-{% raw %}
-$$
-\begin{align}
-&\underset{\boldsymbol{w}}{\min}\sum_{i=1}^N{\left( \boldsymbol{p}_i\boldsymbol{w} \right) ^2 },\,\, s.t. \,\left\| \boldsymbol{w} \right\| _2=1 \notag
-\\
-\Rightarrow &\underset{\boldsymbol{w}}{\min}\,\,\boldsymbol{w}^T\boldsymbol{P}^T\boldsymbol{Pw},\,\, s.t.\, \boldsymbol{w}^T\boldsymbol{w}=1
-\end{align}
-$$
-
 
 $$
-\begin{align}
-\sum_{i=1}^N{d_{i}^{2}}&=\boldsymbol{w}^T\boldsymbol{P}^T\boldsymbol{Pw}\notag
-\\
-&=\left( -\lambda \right) \boldsymbol{w}^T\left( -\lambda \right) \boldsymbol{w}\notag
-\\
-&=\lambda ^2\boldsymbol{w}^T\boldsymbol{w}=\lambda^2
-\end{align}
+e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 $$
 
+1. $a_c=a_i$
 
-$$
-\begin{align}
-d_i=\frac{a\hat{x}_i+b\hat{y}_i}{\sqrt{a^2+b^2}} \label{distance}
-\end{align}
-$$
+1. $a_c=a_{i}$
 
-{% endraw %}
-```
+1. $a_c={a}_i$
 
-{% raw %}
-$$
-\begin{align}
-&\underset{\boldsymbol{w}}{\min}\sum_{i=1}^N{\left( \boldsymbol{p}_i\boldsymbol{w} \right) ^2 },\,\, s.t. \,\left\| \boldsymbol{w} \right\| _2=1 \notag
-\\
-\Rightarrow &\underset{\boldsymbol{w}}{\min}\,\,\boldsymbol{w}^T\boldsymbol{P}^T\boldsymbol{Pw},\,\, s.t.\, \boldsymbol{w}^T\boldsymbol{w}=1
-\end{align}
-$$
+1. $a_c={a}_{i}$
 
+1. $a_{c}=a_i$
 
-$$
-\begin{align}
-\sum_{i=1}^N{d_{i}^{2}}&=\boldsymbol{w}^T\boldsymbol{P}^T\boldsymbol{Pw}\notag
-\\
-&=\left( -\lambda \right) \boldsymbol{w}^T\left( -\lambda \right) \boldsymbol{w}\notag
-\\
-&=\lambda ^2\boldsymbol{w}^T\boldsymbol{w}=\lambda^2
-\end{align}
-$$
+1. $a_{c}={a}_i$
+
+1. $a_{c}={a}_{i}$
+
+1. ${a}_c=a_i$
+
+1. ${a}_c=a_{i}$
+
+1. ${a}_c={a}_i$
+
+1. ${a}_c={a}_{i}$
+
+1. ${a}_{c}=a_i$
+
+1. ${a}_{c}={a}_i$
+
+1. ${a}_{c}={a}_{i}$
 
 
-$$
-\begin{align}
-d_i=\frac{a\hat{x}_i+b\hat{y}_i}{\sqrt{a^2+b^2}} \label{distance}
-\end{align}
-$$
 
-{% endraw %}
+---
+
+
+
+1. $a_c=a_ i$
+
+1. $a_c=a_ {i}$
+
+1. $a_c={a}_ i$
+
+1. $a_c={a}_ {i}$
+
+1. $a_{c}=a_ i$
+
+1. $a_{c}={a}_ i$
+
+1. $a_{c}={a}_ {i}$
+
+1. ${a}_c=a_ i$
+
+1. ${a}_c=a_ {i}$
+
+1. ${a}_c={a}_ i$
+
+1. ${a}_c={a}_ {i}$
+
+1. ${a}_{c}=a_ i$
+
+1. ${a}_{c}={a}_ i$
+
+1. ${a}_{c}={a}_ {i}$
+
+
+
+---
+
+
+
+1. $a_c=a _i$
+
+1. $a_c=a _{i}$
+
+1. $a_c={a} _i$
+
+1. $a_c={a} _{i}$
+
+1. $a_{c}=a _i$
+
+1. $a_{c}={a} _i$
+
+1. $a_{c}={a} _{i}$
+
+1. ${a}_c=a _i$
+
+1. ${a}_c=a _{i}$
+
+1. ${a}_c={a} _i$
+
+1. ${a}_c={a} _{i}$
+
+1. ${a}_{c}=a _i$
+
+1. ${a}_{c}={a} _i$
+
+1. ${a}_{c}={a} _{i}$
+
+
+
+---
+
+
+
+1. $a_c=a _ i$
+
+1. $a_c=a _ {i}$
+
+1. $a_c={a} _ i$
+
+1. $a_c={a} _ {i}$
+
+1. $a_{c}=a _ i$
+
+1. $a_{c}={a} _ i$
+
+1. $a_{c}={a} _ {i}$
+
+1. ${a}_c=a _ i$
+
+1. ${a}_c=a _ {i}$
+
+1. ${a}_c={a} _ i$
+
+1. ${a}_c={a} _ {i}$
+
+1. ${a}_{c}=a _ i$
+
+1. ${a}_{c}={a} _ i$
+
+1. ${a}_{c}={a} _ {i}$
+
+
+
+---
+
+
+
+1. $a_ c=a_i$
+
+1. $a_ c=a_{i}$
+
+1. $a_ c={a}_i$
+
+1. $a_ c={a}_{i}$
+
+1. $a_ {c}=a_i$
+
+1. $a_ {c}={a}_i$
+
+1. $a_ {c}={a}_{i}$
+
+1. ${a}_ c=a_i$
+
+1. ${a}_ c=a_{i}$
+
+1. ${a}_ c={a}_i$
+
+1. ${a}_ c={a}_{i}$
+
+1. ${a}_ {c}=a_i$
+
+1. ${a}_ {c}={a}_i$
+
+1. ${a}_ {c}={a}_{i}$
+
+
+
+---
+
+
+
+1. $a_ c=a_ i$
+
+1. $a_ c=a_ {i}$
+
+1. $a_ c={a}_ i$
+
+1. $a_ c={a}_ {i}$
+
+1. $a_ {c}=a_ i$
+
+1. $a_ {c}={a}_ i$
+
+1. $a_ {c}={a}_ {i}$
+
+1. ${a}_ c=a_ i$
+
+1. ${a}_ c=a_ {i}$
+
+1. ${a}_ c={a}_ i$
+
+1. ${a}_ c={a}_ {i}$
+
+1. ${a}_ {c}=a_ i$
+
+1. ${a}_ {c}={a}_ i$
+
+1. ${a}_ {c}={a}_ {i}$
+
+
+
+---
+
+
+
+1. $a_ c=a _i$
+
+1. $a_ c=a _{i}$
+
+1. $a_ c={a} _i$
+
+1. $a_ c={a} _{i}$
+
+1. $a_ {c}=a _i$
+
+1. $a_ {c}={a} _i$
+
+1. $a_ {c}={a} _{i}$
+
+1. ${a}_ c=a _i$
+
+1. ${a}_ c=a _{i}$
+
+1. ${a}_ c={a} _i$
+
+1. ${a}_ c={a} _{i}$
+
+1. ${a}_ {c}=a _i$
+
+1. ${a}_ {c}={a} _i$
+
+1. ${a}_ {c}={a} _{i}$
+
+
+
+---
+
+
+
+1. $a_ c=a _ i$
+
+1. $a_ c=a _ {i}$
+
+1. $a_ c={a} _ i$
+
+1. $a_ c={a} _ {i}$
+
+1. $a_ {c}=a _ i$
+
+1. $a_ {c}={a} _ i$
+
+1. $a_ {c}={a} _ {i}$
+
+1. ${a}_ c=a _ i$
+
+1. ${a}_ c=a _ {i}$
+
+1. ${a}_ c={a} _ i$
+
+1. ${a}_ c={a} _ {i}$
+
+1. ${a}_ {c}=a _ i$
+
+1. ${a}_ {c}={a} _ i$
+
+1. ${a}_ {c}={a} _ {i}$
+
+
+
+---
+
+
+
+1. $a _c=a_i$
+
+1. $a _c=a_{i}$
+
+1. $a _c={a}_i$
+
+1. $a _c={a}_{i}$
+
+1. $a _{c}=a_i$
+
+1. $a _{c}={a}_i$
+
+1. $a _{c}={a}_{i}$
+
+1. ${a} _c=a_i$
+
+1. ${a} _c=a_{i}$
+
+1. ${a} _c={a}_i$
+
+1. ${a} _c={a}_{i}$
+
+1. ${a} _{c}=a_i$
+
+1. ${a} _{c}={a}_i$
+
+1. ${a} _{c}={a}_{i}$
+
+
+
+---
+
+
+
+1. $a _c=a_ i$
+
+1. $a _c=a_ {i}$
+
+1. $a _c={a}_ i$
+
+1. $a _c={a}_ {i}$
+
+1. $a _{c}=a_ i$
+
+1. $a _{c}={a}_ i$
+
+1. $a _{c}={a}_ {i}$
+
+1. ${a} _c=a_ i$
+
+1. ${a} _c=a_ {i}$
+
+1. ${a} _c={a}_ i$
+
+1. ${a} _c={a}_ {i}$
+
+1. ${a} _{c}=a_ i$
+
+1. ${a} _{c}={a}_ i$
+
+1. ${a} _{c}={a}_ {i}$
+
+
+
+---
+
+
+
+1. $a _c=a _i$
+
+1. $a _c=a _{i}$
+
+1. $a _c={a} _i$
+
+1. $a _c={a} _{i}$
+
+1. $a _{c}=a _i$
+
+1. $a _{c}={a} _i$
+
+1. $a _{c}={a} _{i}$
+
+1. ${a} _c=a _i$
+
+1. ${a} _c=a _{i}$
+
+1. ${a} _c={a} _i$
+
+1. ${a} _c={a} _{i}$
+
+1. ${a} _{c}=a _i$
+
+1. ${a} _{c}={a} _i$
+
+1. ${a} _{c}={a} _{i}$
+
+
+
+---
+
+
+
+1. $a _c=a _ i$
+
+1. $a _c=a _ {i}$
+
+1. $a _c={a} _ i$
+
+1. $a _c={a} _ {i}$
+
+1. $a _{c}=a _ i$
+
+1. $a _{c}={a} _ i$
+
+1. $a _{c}={a} _ {i}$
+
+1. ${a} _c=a _ i$
+
+1. ${a} _c=a _ {i}$
+
+1. ${a} _c={a} _ i$
+
+1. ${a} _c={a} _ {i}$
+
+1. ${a} _{c}=a _ i$
+
+1. ${a} _{c}={a} _ i$
+
+1. ${a} _{c}={a} _ {i}$
+
+
+
+---
+
+
+
+1. $a _ c=a_i$
+
+1. $a _ c=a_{i}$
+
+1. $a _ c={a}_i$
+
+1. $a _ c={a}_{i}$
+
+1. $a _ {c}=a_i$
+
+1. $a _ {c}={a}_i$
+
+1. $a _ {c}={a}_{i}$
+
+1. ${a} _ c=a_i$
+
+1. ${a} _ c=a_{i}$
+
+1. ${a} _ c={a}_i$
+
+1. ${a} _ c={a}_{i}$
+
+1. ${a} _ {c}=a_i$
+
+1. ${a} _ {c}={a}_i$
+
+1. ${a} _ {c}={a}_{i}$
+
+
+
+---
+
+
+
+1. $a _ c=a_ i$
+
+1. $a _ c=a_ {i}$
+
+1. $a _ c={a}_ i$
+
+1. $a _ c={a}_ {i}$
+
+1. $a _ {c}=a_ i$
+
+1. $a _ {c}={a}_ i$
+
+1. $a _ {c}={a}_ {i}$
+
+1. ${a} _ c=a_ i$
+
+1. ${a} _ c=a_ {i}$
+
+1. ${a} _ c={a}_ i$
+
+1. ${a} _ c={a}_ {i}$
+
+1. ${a} _ {c}=a_ i$
+
+1. ${a} _ {c}={a}_ i$
+
+1. ${a} _ {c}={a}_ {i}$
+
+
+
+---
+
+
+
+1. $a _ c=a _i$
+
+1. $a _ c=a _{i}$
+
+1. $a _ c={a} _i$
+
+1. $a _ c={a} _{i}$
+
+1. $a _ {c}=a _i$
+
+1. $a _ {c}={a} _i$
+
+1. $a _ {c}={a} _{i}$
+
+1. ${a} _ c=a _i$
+
+1. ${a} _ c=a _{i}$
+
+1. ${a} _ c={a} _i$
+
+1. ${a} _ c={a} _{i}$
+
+1. ${a} _ {c}=a _i$
+
+1. ${a} _ {c}={a} _i$
+
+1. ${a} _ {c}={a} _{i}$
+
+
+
+---
+
+
+
+1. $a _ c=a _ i$
+
+1. $a _ c=a _ {i}$
+
+1. $a _ c={a} _ i$
+
+1. $a _ c={a} _ {i}$
+
+1. $a _ {c}=a _ i$
+
+1. $a _ {c}={a} _ i$
+
+1. $a _ {c}={a} _ {i}$
+
+1. ${a} _ c=a _ i$
+
+1. ${a} _ c=a _ {i}$
+
+1. ${a} _ c={a} _ i$
+
+1. ${a} _ c={a} _ {i}$
+
+1. ${a} _ {c}=a _ i$
+
+1. ${a} _ {c}={a} _ i$
+
+1. ${a} _ {c}={a} _ {i}$
+
+
